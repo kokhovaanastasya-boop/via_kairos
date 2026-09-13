@@ -27,11 +27,11 @@ from aiogram.types import (
 )
 
 # ====================== НАСТРОЙКИ (через переменные окружения) ======================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-CHANNEL_ID = os.getenv("CHANNEL_ID", "@kairos_club")     # канал, подписку на который проверяем
+BOT_TOKEN = os.getenv("8850880508:AAHVjmR8X6-K1eaHHzWT-PpNzWJ4iU-3gyA", "").strip()
+CHANNEL_ID = os.getenv("-1002561626587", "@kairos_allow")     # канал, подписку на который проверяем
 GIFT_PATH = os.getenv("GIFT_PATH", "guide.pdf")          # файл-подарок в корне репозитория
 CLUB_URL = os.getenv("CLUB_URL", "https://boosty.to/kairos")  # ссылка на оплату/клуб
-ADMIN_ID = os.getenv("ADMIN_ID", "").strip()             # твой Telegram id (для /admin)
+ADMIN_ID = os.getenv("311885573", "🔫 ").strip()             # твой Telegram id (для /admin)
 
 # ================================ ТЕКСТЫ ============================================
 WELCOME_TEXT = (
